@@ -409,3 +409,39 @@ margin: 10px;
       display: flex;
       flex-direction: row;
     }
+     @media (max-width: 800px) {
+  body{
+    flex-direction: column;
+  }
+  .body__main {
+flex-direction: column;
+align-items: center;
+  }
+  .sidebar{
+    flex-direction: column;
+    position: relative;
+     align-items: center;
+  }
+  .feed{
+    top: 1px;
+    left: 5px;
+    flex-direction: column;
+position: relative;
+     
+  }
+  .sidebar-extrabottom{
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 150px;
+  }
+  .sidebar__top{
+    position: static;
+  }
+  .header{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  
+}
